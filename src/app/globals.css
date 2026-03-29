@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+
+  --color-paper: #FAF9F6;
+  --color-ink: #1C1917;
+  --color-ink-light: #57534E;
+  --color-stone: #E7E5E4;
+  --color-accent-coral: #E25D4E;
+  --color-accent-sage: #5B9A6B;
+  --color-accent-sand: #D4A24E;
+  --color-accent-sky: #4A90B8;
+  --color-card: #ffffff;
+
+  --shadow-soft: 0 16px 40px rgba(28, 25, 23, 0.06);
+  --shadow-sketch: 6px 6px 0 rgba(28, 25, 23, 0.12);
+  --shadow-sketch-hover: 10px 10px 0 rgba(28, 25, 23, 0.12);
+}
+
+::selection {
+  background: var(--color-accent-sand);
+  color: white;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+.hand-drawn-border {
+  border: 2px solid var(--color-ink);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-sketch);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.hand-drawn-border:hover {
+  box-shadow: var(--shadow-sketch-hover);
+}
+
+@keyframes mimi-bounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-6px) scale(1.02);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

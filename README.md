@@ -1,2 +1,3 @@
 # ditto
-Record once, automate anywhere
+
+Record once, automate anywhere.
