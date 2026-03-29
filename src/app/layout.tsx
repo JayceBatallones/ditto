@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ditto — Record once, automate anywhere",
+  title: "Ditto — Record once, automate forever",
   description:
     "Teach Ditto your workflow by recording your screen. No code needed.",
 };

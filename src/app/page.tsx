@@ -58,7 +58,7 @@ export default function Home() {
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight leading-tight">
             Record once,
             <br />
-            <span className="italic text-ink-light">automate anywhere.</span>
+            <span className="italic text-ink-light">automate forever.</span>
           </h1>
 
           <p className="mt-6 text-lg text-ink-light max-w-lg mx-auto leading-relaxed">
@@ -136,7 +136,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-stone py-6 text-center text-xs text-ink-light/60">
-        &copy; 2026 Ditto. Record once, automate anywhere.
+        &copy; 2026 Ditto. Record once, automate forever.
       </footer>
     </div>
   );
